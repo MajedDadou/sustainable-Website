@@ -1,0 +1,22 @@
+/* Header.css */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .navigation {
+    flex: 1;
+    text-align: right;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .title {
+    font-size: 20px;
+  }
+  

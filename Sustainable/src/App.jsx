@@ -7,6 +7,7 @@ import Services from './pages/Services';
 import OmOs from './pages/OmOs';
 import Kontakt from './pages/Kontakt';
 import Navigation from './Component/navigation';
+import Header from './Component/Header';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -14,13 +15,13 @@ function App() {
   return (
     <Router>
       <div>
-        <Navigation />
+        <Header/>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/cases" element={<Cases />} />
-          <Route path="/services" element={<Services />} />
-          <Route path="/om-os" element={<OmOs />} />
-          <Route path="/kontakt" element={<Kontakt />} />
+          <Route path="/" exact component={Home} />
+          <Route path="/cases" component={Cases} />
+          <Route path="/services" component={Services} />
+          <Route path="/om-os" component={OmOs} />
+          <Route path="/kontakt" component={Kontakt} />
         </Routes>
       </div>
     </Router>
