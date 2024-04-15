@@ -1,0 +1,29 @@
+.sticky-navigation {
+    position: sticky;
+    margin-left: auto; /* Push the navigation to the right */
+  }
+  
+  .nav-links {
+    list-style-type: none; /* Remove bullet points from the list */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Display the list items horizontally */
+    gap: 15px; /* Add some spacing between the links */
+    flex-direction: column;
+  }
+  
+  .nav-links li {
+    margin: 0; /* Remove default margins */
+  }
+  
+  .nav-links li a {
+    text-decoration: none; /* Remove underline from the links */
+    color: #333; /* Set link color */
+    padding: 10px 15px; /* Add padding around the links */
+    border-radius: 5px; /* Add rounded corners to the links */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+  }
+  
+  .nav-links li a:hover {
+    background-color: #f0f0f0; /* Change background color on hover */
+  }
+  

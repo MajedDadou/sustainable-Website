@@ -1,17 +1,23 @@
 // Header.jsx
 import React from 'react';
-import Title from './Title';
 import './Header.css'; // Import CSS file for styling
 import Navigation from './navigation';
 import Logo from './Logo.jsx';
+import Title from './Title'; // Import the Title component
 
-function Header() {
+
+function Header({ title }) { // Destructure the title prop here
   return (
     <header className="header">
-      <Logo></Logo>
-      <Title />
-      <Navigation />
-    </header>
+    <div className="left-section">
+      <Logo />
+      <Title titleText={title} />
+    </div>
+    <div className='right-section'>
+    <Navigation />
+
+    </div>
+  </header>
   );
 }
 

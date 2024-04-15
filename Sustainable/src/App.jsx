@@ -1,6 +1,5 @@
 import React from 'react';
-import { useState } from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; // Import BrowserRouter as Router
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import Cases from './pages/Cases';
 import Services from './pages/Services';
@@ -10,18 +9,15 @@ import Navigation from './Component/navigation';
 import Header from './Component/Header';
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <Router>
       <div>
-        <Header/>
         <Routes>
-          <Route path="/" exact component={Home} />
-          <Route path="/cases" component={Cases} />
-          <Route path="/services" component={Services} />
-          <Route path="/om-os" component={OmOs} />
-          <Route path="/kontakt" component={Kontakt} />
+          <Route path="/" element={<Home />} />
+          <Route path="/cases" element={<Cases />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/om-os" element={<OmOs />} />
+          <Route path="/kontakt" element={<Kontakt />} />
         </Routes>
       </div>
     </Router>

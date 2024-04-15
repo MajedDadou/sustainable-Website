@@ -1,10 +1,9 @@
-// Title.jsx
 import React from 'react';
 
-function Title() {
+function Title({ titleText }) {
   return (
     <div className="title">
-      Page Title
+      {titleText}
     </div>
   );
 }
