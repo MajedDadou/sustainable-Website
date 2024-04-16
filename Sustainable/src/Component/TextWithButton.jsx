@@ -1,11 +1,14 @@
 import React from 'react';
-
-function TextWithButton({ title, description, buttonText }) {
-  return (
+import '../Styles/TextWithButton.css';
+function TextWithButton({ title, buttonText }) {
+    return (
     <div className="text-with-button">
-      <h2>{title}</h2>
-      <p>{description}</p>
-      <button>{buttonText}</button>
+      <div className="text-container">
+        <h2>{title}</h2>
+      </div>
+      <div className="button-container">
+        <button>{buttonText}</button>
+      </div>
     </div>
   );
 }

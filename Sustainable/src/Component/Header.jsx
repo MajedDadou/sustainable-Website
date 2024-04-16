@@ -1,6 +1,6 @@
 // Header.jsx
 import React from 'react';
-import './Header.css'; // Import CSS file for styling
+import '../Styles/Header.css'; // Import CSS file for styling
 import Navigation from './navigation';
 import Logo from './Logo.jsx';
 import Title from './Title'; // Import the Title component

@@ -1,0 +1,12 @@
+.two-images-container {
+    /* display: flex; */
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .image {
+    width: 50%; /* Each image takes up half of the container width */
+    height: auto; /* Maintain aspect ratio */
+  }
+  

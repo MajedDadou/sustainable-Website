@@ -1,0 +1,16 @@
+    /* PictureWithText.css */
+.picture-with-text {
+    display: inline-block;
+    width: calc(26.66% - 20px); /* Adjust based on the actual layout */
+    margin: 10px;
+    /* Add other styles as needed */
+  }
+  
+  .picture-with-text img {
+    border-radius: 1.25rem;
+
+    width: 100%;
+    height: auto;
+    /* Add other styles as needed */
+  }
+  
