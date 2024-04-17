@@ -7,11 +7,13 @@ import TextWithButton from '../Component/TextWithButton';
 import PictureWithText from '../Component/PictureWithText';
 import TitleWithTwoTextsAndButtons from '../Component/TitleWithTwoTextsAndButtons';
 import TwoImages from '../Component/TwoImages';
+import Footer from '../Component/Footer';
+import FooterSection from '../Component/FooterSection';
 
 function Home() {
   return (
     <>
-      <Header title="Vi hjælper virksomheder med at implementere  en grøn profil online" />
+      <Header title="VI UDVIKLER OG SKABER EN DIGITAL FREMTID MED ANSVAR" />
       <Banner src="src/images/IMG_2941.avif" type="image" />
 
       <div>
@@ -25,22 +27,22 @@ function Home() {
           <PictureWithText
             src="src/images/IMG_3051.avif"
             alt="Description for picture 1"
-            title="Mere om os"
-            subText="Description for picture 1"
+            title="RÅDGIVNING"
+            subText="Vi tilbyder skræddersyet rådgivning til din nye hjemmeside. Med fokus på bæredygtigt webdesign guider vi dig gennem processen for at skabe en unik og miljøvenlig online tilstedeværelse. Lad os realisere din vision sammen."
           />
 
           <PictureWithText
             src="src/images/IMG_3051.avif"
             alt="Description for picture 2"
-            title="Picture 2 Title"
-            subText="Description for picture 2"
+            title="PAKKELØSNING"
+            subText="Vi har tre pakkeløsninger hvor der er fleksibilitet og løsningen er skræddersyet til netop dig. Uanset hvilken pakke du vælger, leverer vi en skræddersyet og bæredygtig løsning til dine behov."
           />
 
           <PictureWithText
             src="src/images/IMG_3051.avif"
             alt="Description for picture 3"
-            title="Picture 3 Title"
-            subText="Description for picture 3"
+            title="MÅLINGER"
+            subText="Forbedringer din online tilstedeværelse, med nøjagtige målinger og skræddersyede forslag til at optimerer din hjemmeside fra bunden. Lad os hjælpe dig med at nå nye højder online."
           />
         </div>
       </div>
@@ -55,7 +57,7 @@ function Home() {
       <TwoImages src1="src/images/IMG_3051.avif" src2="src/images/IMG_3051.avif" />
       <TwoImages src1="src/images/IMG_3051.avif" src2="src/images/IMG_3051.avif" />
 
-
+      <Footer />
       {/* Your home page content goes here */}
     </>
   );

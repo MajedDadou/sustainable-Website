@@ -29,7 +29,7 @@ const Contact = () => {
       });
   
     setName("");
-    setEmail("");
+    setEmail(""); 
     setMessage("");
   };
 
