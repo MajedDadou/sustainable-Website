@@ -14,7 +14,7 @@ function Home() {
   return (
     <>
       <Header title="VI UDVIKLER OG SKABER EN DIGITAL FREMTID MED ANSVAR" />
-      <Banner src="src/images/IMG_2941.avif" type="image" />
+      <Banner src="src/images/IMG_3051.avif" type="image" />
 
       <div>
         <TextWithButton
@@ -48,10 +48,24 @@ function Home() {
       </div>
       <TitleWithTwoTextsAndButtons
         title="Your Title"
-        text1="First piece of text"
-        text2="Second piece of text"
-        button1Text="Button 1"
-        button2Text="Button 2"
+        text1="Vi tror på at skabe en bedre digital fremtid, og det starter med vores tilgang til webudvikling. Hos MJ Solutions løser vi kundecases på en bæredygtig måde ved at anvende en React.js som fundament til at opbygge din hjemmeside. Denne avancerede framework giver ikke kun enestående ydeevne og brugeroplevelse, men det er også mere miljøvenligt end traditionelle kodemetoder.
+        Vores engagement i bæredygtighed stopper dog ikke der. Vi anvender avancerede værktøjer som Ecograder og Lighthouse til at evaluere og optimere vores løsninger. Dette sikrer, at vi ikke kun opfylder vores kunders behov, men også reducerer det klimamæssige aftryk.
+        
+        
+       
+        "
+        text2=" Uanset om vi opgraderer og forbedrer din eksisterende hjemmeside eller udvikler en helt ny, skræddersyet løsning, er vores mål altid det samme:"
+        
+X        
+        text3="At levere en mere bæredygtig weboplevelse, der inspirerer og engagerer dine kunder."
+
+        text4="Lad os sammen bygge fremtiden med ansvar og innovation. Kontakt os i dag for at starte rejsen mod en mere bæredygtig online tilstedeværelse."
+        
+        button1Text="KONTAKT OS"
+        button2Text="SE CASE"
+        src1="src/images/Work.avif"
+        src2="src/icons/paint.png"
+
       />
 
       <TwoImages src1="src/images/IMG_3051.avif" src2="src/images/IMG_3051.avif" />

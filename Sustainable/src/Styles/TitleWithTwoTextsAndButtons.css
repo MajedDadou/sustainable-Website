@@ -3,36 +3,59 @@
 .title-with-two-texts-buttons {
     /* text-align: center; */
     margin-bottom: 20px;
+    height: auto;
     width: 80%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    /* justify-content: space-around; */
 }
 
 .title-with-two-texts-buttons div {
-    display: flex;
+    /* display: flex; */
     /* justify-content: space-around; */
-    margin: 20px;
+    /* margin: 20px; */
 }
 
+.right-images {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-images img {
+    border-radius: 1.25rem;
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+.texts-container {
+    height: 100%;
+    width: 80%;
+}
 
 .texts-container p {
-    margin: 20px;
-}
-
-.buttons-container button {
-
-    background-color: #007bff;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    margin: 20px;
+    MARGIN: 0rem 10rem 3rem 3rem;
+    color: #FFF;
+    font-size: large;
+    /* font-style: normal; */
+    /* font-weight: 400; */
+    /* line-height: 1.875rem; */
+    /* 150% */
+    /* letter-spacing: 0.125rem; */
+    margin-top: 2rem;
+    height: 100%;
 }
 
 
-.buttons-container:hover {
-    background-color: #0056b3;
+.button-container{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Container {
+    width: 100%;
+    height: 100%;
+    display: flex;
 }
