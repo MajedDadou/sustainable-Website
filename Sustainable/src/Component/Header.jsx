@@ -9,11 +9,11 @@ import Title from './Title'; // Import the Title component
 function Header({ title }) { // Destructure the title prop here
   return (
     <header className="header">
-    <div className="left-section">
+    <div className="left-section-header">
       <Logo />
       <Title titleText={title} />
     </div>
-    <div className='right-section'>
+    <div className='right-section-header'>
     <Navigation />
 
     </div>

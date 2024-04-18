@@ -9,6 +9,11 @@ import TitleWithTwoTextsAndButtons from '../Component/TitleWithTwoTextsAndButton
 import TwoImages from '../Component/TwoImages';
 import Footer from '../Component/Footer';
 import FooterSection from '../Component/FooterSection';
+import lottiePackage  from '../lottie/package.json';
+import lottieconsulting  from '../lottie/consulting.json';
+import lottiemeasurment  from '../lottie/measurment.json';
+
+import Lottie from 'react-lottie'; // Import Lottie from 'react-lottie'
 
 function Home() {
   return (
@@ -22,24 +27,24 @@ function Home() {
           // description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
           buttonText="Learn More"
         />
-
+        {/* <Lottie options={{ animationData: lottiePackage }} height={400} width={400} /> Use the Lottie component here */}
         <div className="pictures-container">
           <PictureWithText
-            src="src/images/IMG_3051.avif"
+            src= {lottieconsulting}
             alt="Description for picture 1"
             title="RÅDGIVNING"
             subText="Vi tilbyder skræddersyet rådgivning til din nye hjemmeside. Med fokus på bæredygtigt webdesign guider vi dig gennem processen for at skabe en unik og miljøvenlig online tilstedeværelse. Lad os realisere din vision sammen."
           />
 
           <PictureWithText
-            src="src/images/IMG_3051.avif"
+            src= {lottiePackage}
             alt="Description for picture 2"
             title="PAKKELØSNING"
             subText="Vi har tre pakkeløsninger hvor der er fleksibilitet og løsningen er skræddersyet til netop dig. Uanset hvilken pakke du vælger, leverer vi en skræddersyet og bæredygtig løsning til dine behov."
           />
 
           <PictureWithText
-            src="src/images/IMG_3051.avif"
+            src= {lottiemeasurment}
             alt="Description for picture 3"
             title="MÅLINGER"
             subText="Forbedringer din online tilstedeværelse, med nøjagtige målinger og skræddersyede forslag til at optimerer din hjemmeside fra bunden. Lad os hjælpe dig med at nå nye højder online."
@@ -68,8 +73,8 @@ X
 
       />
 
-      <TwoImages src1="src/images/IMG_3051.avif" src2="src/images/IMG_3051.avif" />
-      <TwoImages src1="src/images/IMG_3051.avif" src2="src/images/IMG_3051.avif" />
+      {/* <TwoImages src1="src/images/IMG_3051.avif" src2="src/images/IMG_3051.avif" /> */}
+      {/* <TwoImages src1="src/images/IMG_3051.avif" src2="src/images/IMG_3051.avif" /> */}
 
       <Footer />
       {/* Your home page content goes here */}

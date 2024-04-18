@@ -6,9 +6,9 @@ function TextWithButton({ title, buttonText }) {
       <div className="text-container">
         <h2>{title}</h2>
       </div>
-      <div className="button-container">
+      {/* <div className="button-container">
         <button>{buttonText}</button>
-      </div>
+      </div> */}
     </div>
   );
 }
