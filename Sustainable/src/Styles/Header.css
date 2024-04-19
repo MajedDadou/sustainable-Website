@@ -3,10 +3,8 @@
   align-items: center;
   justify-content: space-between;
   /* padding: 20px; */
-  width: 100%;
-}
-.header div{
-  /* width: 50%; */
+  width: auto;
+  margin-left: 2%;
 }
 
 .left-section-header {
@@ -17,6 +15,10 @@
 }
 .left-section-header div{
   margin-top: 40px;
+}
+.left-section-header .title{
+  font-weight: 700;
+
 }
 .right-section-header{
   width: auto;

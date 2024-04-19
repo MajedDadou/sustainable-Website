@@ -1,5 +1,8 @@
 /* TextWithButton.css */
 .text-with-button {
+  margin-top: 5%;
+  margin-left: 2%;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -10,6 +13,12 @@
   .text-container {
     flex: 1;
     /* Add other styles as needed */
+  }
+  .text-container h2{
+    font-size: 3rem;
+    font-weight: 400;
+
+
   }
   
   .button-container button{

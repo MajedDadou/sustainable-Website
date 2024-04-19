@@ -4,4 +4,8 @@
 html{
     background-color: #484848;
     color: white;
+    /* margin-left: 2%; */
+}
+body{
+    margin: 0;
 }

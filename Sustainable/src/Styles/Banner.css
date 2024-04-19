@@ -1,19 +1,26 @@
 .Banner {
-    position: relative;
-    width: 100%;
-    
-   
-  }
-  
-  .Banner {
-    position: relative;
+  position: relative;
+  /* width: 100%; */
+  margin-left: 2%;
+  border-radius: 1.25rem;
 
-    width: 80%;
-    height: auto;
-  }
-  .Banner img{
-    height: auto;
-    width: 100%;
-    height: 70vh;
-    object-fit: cover;
-  }
+
+}
+
+.Banner {
+  position: relative;
+  margin-top: 5%;
+  width: 80%;
+  height: auto;
+}
+
+.Banner img {
+  margin: auto;
+  height: auto;
+  width: 100%;
+  height: 70vh;
+  object-fit: cover;
+}
+.Banner div{
+  height: 100%;
+}

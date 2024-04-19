@@ -1,10 +1,11 @@
 import React from 'react';
 import '../Styles/TitleWithTwoTextsAndButtons.css'; // Import the CSS file for styling
+import Title from './Title';
 
 function TitleWithTwoTextsAndButtons({ src1, src2, title, text1, text2, text3, text4, button1Text, button2Text }) {
   return (
     <div className="title-with-two-texts-buttons">
-      <h2>{title}</h2>
+      <Title titleText={title} />
       <div className='Container'>
         <div className="texts-container">
           <p>{text1}</p>

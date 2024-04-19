@@ -19,8 +19,8 @@ function PictureWithText({ src, alt, title, subText }) {
 
     return (
       <div className="picture-with-text">
-        <Lottie options={defaultOptions} height={'auto'} width={'100%'}/>
-        <h3>{title}</h3>
+        <Lottie options={defaultOptions}  height={'fit-content'} width={'100%'}/>
+        <h2>{title}</h2>
         <p>{subText}</p>
       </div>
     );

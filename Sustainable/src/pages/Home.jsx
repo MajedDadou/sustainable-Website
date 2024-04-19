@@ -9,9 +9,10 @@ import TitleWithTwoTextsAndButtons from '../Component/TitleWithTwoTextsAndButton
 import TwoImages from '../Component/TwoImages';
 import Footer from '../Component/Footer';
 import FooterSection from '../Component/FooterSection';
-import lottiePackage  from '../lottie/package.json';
-import lottieconsulting  from '../lottie/consulting.json';
-import lottiemeasurment  from '../lottie/measurment.json';
+import lottiePackage from '../lottie/package.json';
+import lottieconsulting from '../lottie/consulting.json';
+import lottiemeasurment from '../lottie/measurment.json';
+import lottiemj from '../lottie/mj.json';
 
 import Lottie from 'react-lottie'; // Import Lottie from 'react-lottie'
 
@@ -19,7 +20,7 @@ function Home() {
   return (
     <>
       <Header title="VI UDVIKLER OG SKABER EN DIGITAL FREMTID MED ANSVAR" />
-      <Banner src="src/images/IMG_3051.avif" type="image" />
+      <Banner src={lottiemj}/>
 
       <div>
         <TextWithButton
@@ -30,21 +31,21 @@ function Home() {
         {/* <Lottie options={{ animationData: lottiePackage }} height={400} width={400} /> Use the Lottie component here */}
         <div className="pictures-container">
           <PictureWithText
-            src= {lottieconsulting}
+            src={lottieconsulting}
             alt="Description for picture 1"
             title="RÅDGIVNING"
             subText="Vi tilbyder skræddersyet rådgivning til din nye hjemmeside. Med fokus på bæredygtigt webdesign guider vi dig gennem processen for at skabe en unik og miljøvenlig online tilstedeværelse. Lad os realisere din vision sammen."
           />
 
           <PictureWithText
-            src= {lottiePackage}
+            src={lottiePackage}
             alt="Description for picture 2"
             title="PAKKELØSNING"
             subText="Vi har tre pakkeløsninger hvor der er fleksibilitet og løsningen er skræddersyet til netop dig. Uanset hvilken pakke du vælger, leverer vi en skræddersyet og bæredygtig løsning til dine behov."
           />
 
           <PictureWithText
-            src= {lottiemeasurment}
+            src={lottiemeasurment}
             alt="Description for picture 3"
             title="MÅLINGER"
             subText="Forbedringer din online tilstedeværelse, med nøjagtige målinger og skræddersyede forslag til at optimerer din hjemmeside fra bunden. Lad os hjælpe dig med at nå nye højder online."
@@ -60,12 +61,11 @@ function Home() {
        
         "
         text2=" Uanset om vi opgraderer og forbedrer din eksisterende hjemmeside eller udvikler en helt ny, skræddersyet løsning, er vores mål altid det samme:"
-        
-X        
+
         text3="At levere en mere bæredygtig weboplevelse, der inspirerer og engagerer dine kunder."
 
         text4="Lad os sammen bygge fremtiden med ansvar og innovation. Kontakt os i dag for at starte rejsen mod en mere bæredygtig online tilstedeværelse."
-        
+
         button1Text="KONTAKT OS"
         button2Text="SE CASE"
         src1="src/images/Work.avif"
