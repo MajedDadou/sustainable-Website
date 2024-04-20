@@ -1,5 +1,6 @@
 import React from 'react';
 import '../Styles/TextWithButton.css';
+
 import Title from './Title';
 function TextWithButton({ title, buttonText }) {
     return (

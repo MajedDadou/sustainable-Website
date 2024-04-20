@@ -1,8 +1,10 @@
 import React from 'react';
 import '../Styles/TitleWithTwoTextsAndButtons.css'; // Import the CSS file for styling
 import Title from './Title';
+import { Link } from 'react-router-dom';  // Import Link from react-router-dom
 
-function TitleWithTwoTextsAndButtons({ src1, src2, title, text1, text2, text3, text4, button1Text, button2Text }) {
+
+function TitleWithTwoTextsAndButtons({ src1, src2, title, text1, text2, text3, text4, button1Text, button2Text, button1Link, button2Link }) {
   return (
     <div className="title-with-two-texts-buttons">
       <Title titleText={title} />
@@ -14,8 +16,12 @@ function TitleWithTwoTextsAndButtons({ src1, src2, title, text1, text2, text3, t
           <p>{text4}</p>
 
           <div className="button-container">
-            <button>{button1Text}</button>
-            <button>{button2Text}</button>
+            <Link to={button1Link}>
+              <button>{button1Text}</button>
+            </Link>
+            <Link to={button2Link}>
+              <button>{button2Text}</button>
+            </Link>
           </div>
         </div>
         <div className='right-images'>

@@ -1,0 +1,16 @@
+.picture-holder{
+    margin-left: 2%;
+    display: flex;
+    width: 80%;
+}
+
+.picture-with-text{
+/* width: auto; */
+
+}
+.title-holder{
+    margin-left: 2%;
+    margin-top: 20px;
+    width: 80%;
+}
+

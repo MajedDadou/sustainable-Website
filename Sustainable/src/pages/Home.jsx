@@ -65,9 +65,10 @@ function Home() {
         text3="At levere en mere bæredygtig weboplevelse, der inspirerer og engagerer dine kunder."
 
         text4="Lad os sammen bygge fremtiden med ansvar og innovation. Kontakt os i dag for at starte rejsen mod en mere bæredygtig online tilstedeværelse."
-
         button1Text="KONTAKT OS"
+        button1Link="/kontakt"
         button2Text="SE CASE"
+        button2Link="/cases"
         src1="src/images/Work.avif"
         src2="src/icons/paint.png"
 
@@ -77,7 +78,6 @@ function Home() {
       {/* <TwoImages src1="src/images/IMG_3051.avif" src2="src/images/IMG_3051.avif" /> */}
 
       <Footer />
-      {/* Your home page content goes here */}
     </>
   );
 }

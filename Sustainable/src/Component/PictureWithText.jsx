@@ -3,7 +3,7 @@ import '../Styles/PictureWithText.css';
 import Lottie from 'react-lottie';
 
 
-function PictureWithText({ src, alt, title, subText }) {
+function PictureWithText({ src, alt, title, subText, customStyleDiv, customStyleImg}) {
   const isLottieAnimation = typeof src === 'object';
 
   if (isLottieAnimation) {
@@ -28,8 +28,8 @@ function PictureWithText({ src, alt, title, subText }) {
 
   // Render the image if src is a string (path to an image)
   return (
-    <div className="picture-with-text">
-      <img src={src} alt={alt} />
+    <div className="picture-with-text" style={customStyleDiv}>
+      <img src={src} alt={alt} style={customStyleImg} />
       <h3>{title}</h3>
       <p>{subText}</p>
     </div>
