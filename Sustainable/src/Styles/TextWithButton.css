@@ -21,19 +21,4 @@
 
   }
   
-  .button-container button{
-    border-radius: 1.875rem;
-    background-color: #D9D9D9; /* Blue color, you can change this */
-    color: rgb(0, 0, 0);
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.3s ease;    
-    /* Add other styles as needed */
-  }
-  .button-container button:hover{
-    background-color: #ffffff;
-    transform: scale(1.1); /* Slightly larger scale on hover */
-
-  }
-  
+ 

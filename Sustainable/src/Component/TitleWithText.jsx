@@ -8,6 +8,7 @@ function TitleWithText({ titleText, subText, customStyle, customStyleText }) {
   return (
     <div className="title-with-text" style={customStyle}>
       <h2 className="title">{titleText}</h2>
+      
       <Text content={subText} style={{customStyleText}} />
     </div>
   );

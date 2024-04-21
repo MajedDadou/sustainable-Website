@@ -1,0 +1,9 @@
+.title-with-text {
+    /* display: flex; */
+    width: 80%;
+    margin-left: 2%;
+}
+.title-with-text .Banner{
+margin-left: 0;
+width: 100%;
+}

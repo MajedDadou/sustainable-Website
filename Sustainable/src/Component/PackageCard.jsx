@@ -1,8 +1,10 @@
 import React from 'react';
 import '../Styles/PackageCard.css';
+import { Link } from 'react-router-dom';
 
-function PackageCard({ title, price, monthlyPrice, bulletPoints }) {
+function PackageCard({ title, price, monthlyPrice, bulletPoints, button1Link, button2Link, button1Text, button2Text, }) {
     return (
+        
         <div className="package-card">
             <h2 className="package-title">{title}</h2>
             <hr className="package-divider" />
@@ -13,7 +15,10 @@ function PackageCard({ title, price, monthlyPrice, bulletPoints }) {
                     <li key={index} className="package-point">{point}</li>
                 ))}
             </ul>
+
         </div>
+        
+        
     );
 }
 

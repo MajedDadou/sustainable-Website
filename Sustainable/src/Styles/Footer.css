@@ -1,5 +1,6 @@
 /* Footer.css */
 .footer {
+  margin-top: 10%;
   margin-left: 0 !important; 
     display: flex;
     justify-content: space-between;

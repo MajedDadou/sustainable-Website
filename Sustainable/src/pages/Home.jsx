@@ -20,7 +20,7 @@ function Home() {
   return (
     <>
       <Header title="VI UDVIKLER OG SKABER EN DIGITAL FREMTID MED ANSVAR" />
-      <Banner src={lottiemj}/>
+      <Banner src={lottiemj} />
 
       <div>
         <TextWithButton
