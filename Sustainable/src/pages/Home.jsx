@@ -54,7 +54,7 @@ function Home() {
         </div>
       </div>
       <TitleWithTwoTextsAndButtons
-        title="Your Title"
+        title="CASE LØSNING"
         text1="Vi tror på at skabe en bedre digital fremtid, og det starter med vores tilgang til webudvikling. Hos MJ Solutions løser vi kundecases på en bæredygtig måde ved at anvende en React.js som fundament til at opbygge din hjemmeside. Denne avancerede framework giver ikke kun enestående ydeevne og brugeroplevelse, men det er også mere miljøvenligt end traditionelle kodemetoder.
         Vores engagement i bæredygtighed stopper dog ikke der. Vi anvender avancerede værktøjer som Ecograder og Lighthouse til at evaluere og optimere vores løsninger. Dette sikrer, at vi ikke kun opfylder vores kunders behov, men også reducerer det klimamæssige aftryk.
         
