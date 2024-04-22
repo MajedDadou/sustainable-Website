@@ -8,7 +8,14 @@ function TitleWithTwoTextsAndButtons({ src1, src2, title, text1, text2, text3, t
   return (
     <div className="title-with-two-texts-buttons">
       <Title titleText={title} />
+      <div className='right-images'>
+          <img src={src1} alt="First Image" />
+          <img src={src2} alt="Second Image" />
+
+
+        </div>
       <div className='Container'>
+        
         <div className="texts-container">
           <p>{text1}</p>
           <p>{text2}</p>
@@ -24,12 +31,7 @@ function TitleWithTwoTextsAndButtons({ src1, src2, title, text1, text2, text3, t
             </Link>
           </div>
         </div>
-        <div className='right-images'>
-          <img src={src1} alt="First Image" />
-          <img src={src2} alt="Second Image" />
 
-
-        </div>
       </div>
 
     </div>

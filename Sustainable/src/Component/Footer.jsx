@@ -13,6 +13,7 @@ function Footer() {
           <p className='address'>8789 Aalborg</p>
           <p className='address'>Danmark</p>
 
+
         </div>
       </div>
       <div className="right-section">

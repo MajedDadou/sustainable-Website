@@ -28,18 +28,31 @@ function OmOs() {
     width: windowWidth > 770 ? '30%' : '100%', // Adjust the width based on the window width
     height: 'auto'
   };
-
+  const customStyleDivLeft = {
+    marginTop:'2rem',
+    display: 'flex',
+    width: windowWidth > 770 ? '60%' : '100%', // Adjust the width based on the window width
+    height: 'auto'
+  };
+  const customStyleDivRight = {
+    marginTop:'2rem',
+    display: 'flex',
+    width: windowWidth > 770 ? '30%' : '100%', // Adjust the width based on the window width
+    height: 'auto'
+  };
   const customStyleImg = {
     width: '100%',
     height: windowWidth > 770 ? '50vh' : '100%', // Adjust the height based on the window width
     objectFit: 'cover'
   };
+
+
   const customStyleP = {
     marginRight: windowWidth > 770 ? '40%' : '0' // Adjust the margin-right based on the window width
   };
   return (
     <>
-      <Header title="Cases" />
+      <Header title="OM OS" />
       <div className="title-holder">
         <TitleWithText
           titleText="MJ Solutions"
@@ -48,7 +61,7 @@ function OmOs() {
         />
 
       </div>
-      <Banner src="src/images/IMG_3051.avif" alt="asd" type="image" />
+      <Banner src="src/images/office-big.jpg" alt="asd" type="image" />
 
       <TitleWithText
         titleText="NORDISK MEDIEBUREAU MED VIND I SEJLENE"
@@ -57,24 +70,18 @@ function OmOs() {
       />
       <div className="pictures-container">
         <PictureWithText
-          src="src/images/havnaer.png"
+          src="src/images/working-computer.jpg"
           alt="Description for picture 1"
-          customStyleDiv={customStyleDiv}
+          customStyleDiv={customStyleDivLeft}
           customStyleImg={customStyleImg}
 
         />
 
-        <PictureWithText
-          src="src/images/havnaer-old.png"
-          alt="Description for picture 2"
-          customStyleDiv={customStyleDiv}
-          customStyleImg={customStyleImg}
 
-        />
         <PictureWithText
-          src="src/images/havnaer.png"
+          src="src/images/picture-day.jpg"
           alt="Description for picture 1"
-          customStyleDiv={customStyleDiv}
+          customStyleDiv={customStyleDivRight}
           customStyleImg={customStyleImg}
 
         />
@@ -96,7 +103,7 @@ function OmOs() {
 
       <div>
         <TextWithButton
-          title="Services"
+          title="BUREAU OG AKTIVITET"
           // description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
           buttonText="Learn More"
         />

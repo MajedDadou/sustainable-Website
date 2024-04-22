@@ -12,6 +12,7 @@ function Header({ title }) { // Destructure the title prop here
     <div className="left-section-header">
       <Logo />
       <Title titleText={title} />
+      <hr />
     </div>
     <div className='right-section-header'>
     <Navigation />

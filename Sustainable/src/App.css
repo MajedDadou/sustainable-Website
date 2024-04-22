@@ -1,5 +1,6 @@
 *{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 0.15rem;
 }
 html{
     background-color: #484848;
@@ -9,7 +10,10 @@ html{
 body{
     margin: 0;
 }
-
+hr{
+    width: 100%;
+    margin-top: 5%;
+}
 
 @media (max-width: 768px) {
     .Banner{

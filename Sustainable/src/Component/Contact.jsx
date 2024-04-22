@@ -39,11 +39,11 @@ const Contact = () => {
 
   return (
     <form className="form" onSubmit={handleSubmit}>
-      <h1>Contact Us</h1>
+      <h1>KONTAKT OS</h1>
 
       <div className="input-group">
         <div className="input-container">
-          <label>Name</label>
+          <label>Navn</label>
           <input
             placeholder="Name"
             value={name}
@@ -52,7 +52,7 @@ const Contact = () => {
         </div>
 
         <div className="input-container">
-          <label>Email</label>
+          <label>E-mail</label>
           <input
             placeholder="Email"
             value={email}

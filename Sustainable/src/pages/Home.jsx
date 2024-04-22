@@ -25,13 +25,13 @@ function Home() {
 
       <div>
         <TextWithButton
-          title="Services"
+          title="SERVICES"
           // description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
           buttonText="Learn More"
         />
         {/* <Lottie options={{ animationData: lottiePackage }} height={400} width={400} /> Use the Lottie component here */}
         <div className="pictures-container">
-          <PictureWithText
+        <PictureWithText
             src={lottieconsulting}
             alt="Description for picture 1"
             title="RÅDGIVNING"
@@ -51,6 +51,7 @@ function Home() {
             title="MÅLINGER"
             subText="Forbedringer din online tilstedeværelse, med nøjagtige målinger og skræddersyede forslag til at optimerer din hjemmeside fra bunden. Lad os hjælpe dig med at nå nye højder online."
           />
+
         </div>
       </div>
       <TitleWithTwoTextsAndButtons
@@ -61,9 +62,8 @@ function Home() {
         
        
         "
-        text2=" Uanset om vi opgraderer og forbedrer din eksisterende hjemmeside eller udvikler en helt ny, skræddersyet løsning, er vores mål altid det samme:"
+        text2=" Uanset om vi opgraderer og forbedrer din eksisterende hjemmeside eller udvikler en helt ny, skræddersyet løsning, er vores mål altid det samme: At levere en mere bæredygtig weboplevelse, der inspirerer og engagerer dine kunder."
 
-        text3="At levere en mere bæredygtig weboplevelse, der inspirerer og engagerer dine kunder."
 
         text4="Lad os sammen bygge fremtiden med ansvar og innovation. Kontakt os i dag for at starte rejsen mod en mere bæredygtig online tilstedeværelse."
         button1Text="KONTAKT OS"

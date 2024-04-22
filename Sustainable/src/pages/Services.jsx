@@ -36,30 +36,31 @@ function Services() {
 
 
     <>
-      <Header title="Cases" />
+      <Header title="SERVICES" />
       {/* Add content related to your services */}
       <div className='package-holder'>
         <PackageCard
           title="FULL-SERVICE"
           price="15999"
-          monthlyPrice="(399 DKK pr. md.)"
+          monthly="(399 DKK pr. md.)"
+
           bulletPoints={package1Points}
         />
         <PackageCard
           title="STANDARD-PAKKEN"
           price="9995"
-          monthlyPrice="(pr. md.)"
+          monthly=""
           bulletPoints={package2Points}
         />
         <PackageCard
           title="SERVICE-PAKKEN"
           price="599"
-          monthlyPrice="(pr. md.)"
+          monthly="(pr. md.)"
           bulletPoints={package3Points}
         />
 
         <Button
-          button1Text="KONTAKT OS"
+          button1Text="BOOK NU"
           button1Link="/kontakt"
           button2Text="SE CASE"
           button2Link="/cases"

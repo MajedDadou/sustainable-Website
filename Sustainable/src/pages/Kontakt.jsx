@@ -43,7 +43,7 @@ const customStyleDiv = {
 
 
     <>
-      <Header title="Kontakt" />
+      <Header title="KONTAKT" />
       <div className='package-holder'>
         <PackageCard
           title="FULL-SERVICE"
@@ -71,7 +71,7 @@ const customStyleDiv = {
 
       <div className="pictures-container">
         <PictureWithText
-          src="src/images/Work.avif"
+          src="src/images/Matilde.avif"
           subtitle="Senior UI Designer "
           alt="Description for picture 1"
           title="Matilde"
@@ -82,7 +82,7 @@ const customStyleDiv = {
        />
 
         <PictureWithText
-          src="src/images/Work.avif"
+          src="src/images/Jakob.avif"
           subtitle="SEO chef - UX Developer"
 
           alt="Description for picture 2"
@@ -94,7 +94,7 @@ const customStyleDiv = {
         />
 
         <PictureWithText
-          src="src/images/Work.avif"
+          src="src/images/Majed.avif"
           subtitle="Front/Back end Developer"
 
           alt="Description for picture 3"
@@ -106,7 +106,7 @@ const customStyleDiv = {
          />
 
         <PictureWithText
-          src="src/images/Work.avif"
+          src="src/images/Jeppe.avif"
           subtitle="Projekt Manager"
 
           alt="Description for picture 3"

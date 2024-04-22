@@ -13,7 +13,16 @@
     /* flex: 1; */
   }
   .text-container p{
-    width: 100%;
+    /* MARGIN: 0rem 10rem 3rem 0; */
+    color: #FFF;
+    font-size: larger;
+    /* font-style: normal; */
+    /* font-weight: 400; */
+    line-height: 1.9rem;
+    letter-spacing: inherit;
+    margin-top: 2rem;
+    height: 100%;
+
   }
   .image-container {
     display: flex;
@@ -30,8 +39,16 @@
   .right-order {
     flex-direction: row-reverse;
   }
-  
+  .right-order .image-container{
+    margin-right: 2%;
+  }
+  .right-order .text-container{
+    margin-left: 20%;
+  }
   .left-order {
     flex-direction: row;
+  }
+  .left-order .text-container{
+    margin-right: 20%;
   }
   
