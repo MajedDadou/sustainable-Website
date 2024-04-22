@@ -13,6 +13,7 @@ import lottiePackage from '../lottie/package.json';
 import lottieconsulting from '../lottie/consulting.json';
 import lottiemeasurment from '../lottie/measurment.json';
 import lottiemj from '../lottie/mj.json';
+import '../Styles/home.css';
 
 import Lottie from 'react-lottie'; // Import Lottie from 'react-lottie'
 
@@ -70,7 +71,7 @@ function Home() {
         button2Text="SE CASE"
         button2Link="/cases"
         src1="src/images/Work.avif"
-        src2="src/icons/paint.png"
+        src2="src/images/havnaer.png"
 
       />
 

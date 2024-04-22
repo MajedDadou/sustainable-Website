@@ -9,3 +9,74 @@ html{
 body{
     margin: 0;
 }
+
+
+@media (max-width: 768px) {
+    .Banner{
+        width: 80%;
+    }
+    .title{
+        font-size: x-large;
+    }
+.pictures-container{
+    flex-direction: column;
+    /* width: auto; */
+}
+
+.picture-with-text {
+width: auto;
+}
+.Container{
+    flex-direction: column;
+}
+.texts-container{
+    width: auto;
+}
+.texts-container p{
+    width: auto;
+    MARGIN: 2rem 0rem 0rem 0rem;
+}
+.right-images{
+    width: auto;
+}
+.title-with-two-texts-buttons {
+width: 80%;
+}
+.footer{
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+}
+.picture-with-text div{
+width: 100% !important;
+}
+.title-holder{
+    width: 100%;
+}
+.left-order{
+display: flex;
+flex-direction: column;
+}
+.right-order{
+    display: flex;
+    flex-direction: column;
+}
+.image-container{
+    width: 100%;
+}
+.image-container img{
+    height: 100%;
+}
+.package-holder .button-container{
+    width: 100%;
+}
+.title-with-text .Banner img {
+height: 100%;
+}
+}
+@media (max-width: 768px){
+
+.button-container {
+    width: 100%;
+}
+}

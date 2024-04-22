@@ -20,6 +20,23 @@ import lottiemj from '../lottie/mj.json';
 import Footer from '../Component/Footer';
 
 function OmOs() {
+  const windowWidth = window.innerWidth;
+
+  const customStyleDiv = {
+    marginTop:'2rem',
+    display: 'flex',
+    width: windowWidth > 770 ? '30%' : '100%', // Adjust the width based on the window width
+    height: 'auto'
+  };
+
+  const customStyleImg = {
+    width: '100%',
+    height: windowWidth > 770 ? '50vh' : '100%', // Adjust the height based on the window width
+    objectFit: 'cover'
+  };
+  const customStyleP = {
+    marginRight: windowWidth > 770 ? '40%' : '0' // Adjust the margin-right based on the window width
+  };
   return (
     <>
       <Header title="Cases" />
@@ -42,23 +59,23 @@ function OmOs() {
         <PictureWithText
           src="src/images/havnaer.png"
           alt="Description for picture 1"
-          customStyleDiv={{ display: 'flex', width: '50%', height: 'auto', }}
-          customStyleImg={{ width: '100%', height: '50vh', objectFit: 'cover', }}
+          customStyleDiv={customStyleDiv}
+          customStyleImg={customStyleImg}
 
         />
 
         <PictureWithText
           src="src/images/havnaer-old.png"
           alt="Description for picture 2"
-          customStyleDiv={{ display: 'flex', width: '20%', height: 'auto', }}
-          customStyleImg={{ width: '100%', height: '50vh', objectFit: 'cover', }}
+          customStyleDiv={customStyleDiv}
+          customStyleImg={customStyleImg}
 
         />
         <PictureWithText
           src="src/images/havnaer.png"
           alt="Description for picture 1"
-          customStyleDiv={{ display: 'flex', width: '20%', height: 'auto', }}
-          customStyleImg={{ width: '100%', height: '50vh', objectFit: 'cover', }}
+          customStyleDiv={customStyleDiv}
+          customStyleImg={customStyleImg}
 
         />
       </div>
@@ -108,7 +125,7 @@ function OmOs() {
         </div>
         <div className="pictures-container">
           <PictureWithText
-          customStyleImg={{backgroundColor: '#D9D9D9' }}
+          customStyleImg={{backgroundColor: '#D9D9D9', height: 'fit-content' }}
           src="src/icons/Balance.png"
             alt="Description for picture 1"
             title="Work balance"

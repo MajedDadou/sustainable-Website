@@ -38,6 +38,11 @@
       font-size: xx-large;
       font-weight: 400;
     }
+    .picture-with-text h4{
+      margin: 0;
+      height: auto;
+      align-items: center;
+    }
 
     .picture-with-text p {
       font-size: medium;

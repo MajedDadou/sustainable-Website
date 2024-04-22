@@ -16,11 +16,14 @@
 
 .Banner img {
   margin: auto;
-  height: auto;
   width: 100%;
-  height: 70vh;
   object-fit: cover;
 }
-.Banner div{
+
+.Banner div {
   height: 100%;
+}
+
+.Banner svg {
+  background-color: #BCBABA;
 }

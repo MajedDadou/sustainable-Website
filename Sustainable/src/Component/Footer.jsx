@@ -7,28 +7,28 @@ function Footer() {
     <footer className="footer">
       <div className="left-section">
         <div className="contact-info">
-          <p>Tlf: +123456789</p>
-          <p>Email: example@email.com</p>
-          <p>Address: 123 Main St, City, Country</p>
+          <p className='number'>+45 23344556</p>
+          <p className='email'>info@mjsolutions.dk</p>
+          <p className='address'>Vesterhøjen 86, 3 sal</p>
+          <p className='address'>8789 Aalborg</p>
+          <p className='address'>Danmark</p>
+
         </div>
       </div>
       <div className="right-section">
         <FooterSection
-          title="Section 1"
           links={[
             { label: 'Cases', url: '/cases' },
             { label: 'Services', url: '/services' },
           ]}
         />
         <FooterSection
-          title="Section 2"
           links={[
             { label: 'Om os', url: '/om-os' },
             { label: 'Kontakt', url: '/kontakt' },
           ]}
         />
         <FooterSection
-          title="Section 3"
           links={[
             { label: 'Facebook', url: '#' },
             { label: 'Instagram', url: '#' },
@@ -37,6 +37,7 @@ function Footer() {
           ]}
         />
       </div>
+      
     </footer>
   );
 }

@@ -29,3 +29,48 @@
     background-color: #f0f0f0; /* Change background color on hover */
   }
   
+
+  @media (max-width: 770px) {
+    .nav-links {
+      display: none;
+    }
+  
+    .nav-links.active {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      top: 100%; /* Position the menu below the navbar */
+      left: 0;
+      width: 100%;
+      background-color: #333; /* Background color for the menu */
+      z-index: 1; /* Ensure the menu is above other elements */
+    }
+  
+    .nav-links.active li {
+      text-align: center; /* Center the menu items */
+      margin: 10px 0; /* Add some spacing between the menu items */
+    }
+  
+    .nav-links.active li a {
+      color: #fff; /* Set link color */
+      padding: 10px 15px; /* Add padding around the links */
+    }
+  
+    /* Burger Menu */
+    .burger-menu {
+      display: block;
+      cursor: pointer;
+    }
+  
+    .burger-line {
+      width: 25px;
+      height: 3px;
+      background-color: #fff;
+      margin: 4px 0;
+      transition: 0.4s;
+    }
+  
+    .burger-line.active {
+      background-color: rgb(0, 0, 0);
+    }
+  }

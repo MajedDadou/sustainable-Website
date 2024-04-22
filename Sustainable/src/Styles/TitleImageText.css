@@ -2,8 +2,14 @@
     /* display: flex; */
     width: 80%;
     margin-left: 2%;
+    height: auto;
 }
-.title-with-text .Banner{
-margin-left: 0;
-width: 100%;
+
+.title-with-text .Banner {
+    margin-left: 0;
+    width: 100%;
+}
+.title-with-text .Banner img {
+    height: 70vh;
+
 }

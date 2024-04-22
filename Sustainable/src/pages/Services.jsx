@@ -9,6 +9,8 @@ import Banner from '../Component/banner';
 import TitleImageText from '../Component/TitleImageText';
 import BannerImage from '../images/WorkCom.avif';
 import Footer from '../Component/Footer';
+import lottiedeskgenbrug from '../lottie/deskgenbrug.json';
+
 
 function Services() {
   const package1Points = [
@@ -80,7 +82,7 @@ function Services() {
         // customStyle={{width: 'auto'}}
         src={BannerImage} // Make sure you define BannerImage with your actual image path
         type="image"
-        customStyleBanner={{ width: '100%', height: '50vh', objectFit: 'cover', }}
+        customStyleBannerImg={{ width: '100%', height: '50vh', objectFit: 'cover', }}
       />
       <TitleImageText
         titleText="LØSNINGER DER GØR EN FORSKEL"
@@ -92,8 +94,7 @@ function Services() {
         "
         subText3="Uanset om det drejer sig om udvikling af hjemmesider, apps eller digitale kampagner, stræber vi efter at levere løsninger, der ikke kun er moderne, men også bæredygtige. Lad os sammen skabe et digitalt landskab, der er i harmoni med både nutiden og fremtiden."
         // customStyle={{width: 'auto'}}
-        src={BannerImage} // Make sure you define BannerImage with your actual image path
-        type="image"
+        src={lottiedeskgenbrug} // Make sure you define BannerImage with your actual image path
         customStyleBanner={{ width: '100%', height: '50vh', objectFit: 'cover', }}
       />
       <div className='button-footer'>

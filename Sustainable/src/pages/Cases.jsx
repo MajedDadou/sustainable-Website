@@ -10,6 +10,24 @@ import ImageTextComponent from '../Component/ImageTextComponent';
 import Footer from '../Component/Footer';
 
 function Cases() {
+  const windowWidth = window.innerWidth;
+
+  const customStyleDiv = {
+    display: 'flex',
+    width: windowWidth > 770 ? '40%' : '100%', // Adjust the width based on the window width
+    height: 'auto'
+  };
+
+  const customStyleImg = {
+    width: '100%',
+    height: windowWidth > 770 ? '50vh' : '100%', // Adjust the height based on the window width
+    objectFit: 'cover'
+  };
+  const customStyleP = {
+    marginRight: windowWidth > 770 ? '40%' : '0' // Adjust the margin-right based on the window width
+  };
+
+
   return (
     <>
       <Header title="Cases" />
@@ -19,8 +37,8 @@ function Cases() {
           alt="Description for picture 1"
           title="HAVNÆRS NYE DESIGN"
           subText="Her har vi implementeret og forbedret løsninger, for at få et mere bæredygtigt webdesign."
-          customStyleDiv={{ display: 'flex', width: '55%', height: 'auto', }}
-          customStyleImg={{ width: '100%', height: '50vh', objectFit: 'cover', }}
+          customStyleDiv={customStyleDiv}
+          customStyleImg={customStyleImg}
 
         />
 
@@ -29,8 +47,8 @@ function Cases() {
           alt="Description for picture 2"
           title="GAMLE DESIGN"
           subText="Her ser vi deres gamle design. Som var mindre bæredygtigt "
-          customStyleDiv={{ display: 'flex', width: '40%', height: 'auto', }}
-          customStyleImg={{ width: '100%', height: '50vh', objectFit: 'cover', }}
+          customStyleDiv={customStyleDiv}
+          customStyleImg={customStyleImg}
 
         />
       </div>
@@ -43,15 +61,15 @@ function Cases() {
         />
 
       </div>
-      <Banner src="src/images/IMG_3051.avif" alt="asd" type="image" />
+      <Banner src="src/images/styletiles-havnaer.png" alt="asd" type="image" />
 
 
       <ImageTextComponent
-        src="src/images/IMG_3051.avif"
+        src="src/images/stats.png"
         alt="Description for image"
         subText="Vi trådte til for at hjælpe dem med at omdanne deres digitale tilstedeværelse til noget, der var mere i tråd med deres værdier. Ved hjælp af værktøjer som Ecograder og Lighthouse identificerede vi problemområderne og implementerede løsninger, der ikke kun forbedrede ydeevnen, men også gjorde hjemmesiden mere bæredygtig."
         order="left"
-        customStyleP={{ marginRight: '40%',  }}
+        customStyleP={{ customStyleP}}
       />
 
       <ImageTextComponent
@@ -59,7 +77,7 @@ function Cases() {
         alt="Description for image"
         subText="Resultatet var en hurtigere, mere miljøvenlig  og effektiv hjemmeside, der afspejlede Restaurant Havnærs forpligtelse til bæredygtighed i alle aspekter af deres forretning. Blot ved at ændre layout i form af reduceringen af multimedie og indhold"
         order="right"
-        customStyleP={{ marginLeft: '40%',  }}
+        customStyleP={{customStyleP }}
       />
 
 

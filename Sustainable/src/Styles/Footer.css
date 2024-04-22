@@ -45,4 +45,13 @@
   .footer-section a:hover {
     text-decoration: underline;
   }
-  
+  .number{
+    font-size: x-large;
+  }
+  .email{
+    font-size: x-large;
+
+  }
+  .address{
+
+  }

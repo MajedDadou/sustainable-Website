@@ -2,7 +2,7 @@ import React from 'react';
 import '../Styles/Banner.css';
 import Lottie from 'react-lottie';
 
-function Banner({ src, type, title, subText }) {
+function Banner({ src, type, title, subText, customStyleBanner, customStyleBannerImg }) {
   const isLottieAnimation = typeof src === 'object';
 
   if (isLottieAnimation) {
@@ -13,10 +13,11 @@ function Banner({ src, type, title, subText }) {
       rendererSettings: {
         preserveAspectRatio: 'xMidYMid slice'
       }
+     
     };
 
     return (
-      <div className="Banner">
+      <div className="Banner" style={customStyleBanner}>
         <Lottie options={defaultOptions} height={'fit-content'} width={'100%'} />
         <h2>{title}</h2>
         <p>{subText}</p>
@@ -27,7 +28,7 @@ function Banner({ src, type, title, subText }) {
   return (
     <div className="Banner">
       {type === 'image' ? (
-        <img src={src} alt="Media" className="Banner" />
+        <img src={src} alt="Media" className="Banner" style={{customStyleBannerImg}}/>
       ) : (
         <video src={src} controls className="Banner"></video>
       )}
